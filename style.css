@@ -1,0 +1,135 @@
+body {
+    background-image: linear-gradient(#f0dfc2,#ebe6df);
+    margin:0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding:0;
+    overflow-x:hidden;
+}
+
+/* Home section */
+.home {
+    width:100vw;
+    height:90vh;
+}
+
+img {
+    border-radius: 150px;
+    width:15vw;
+    height:15vw;
+    border: 2px solid black;
+    display: block;
+    margin: auto;
+    margin-top: 8vh;
+}
+
+.name {
+    text-align: center;
+    font-size: 48px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+.headline {
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    margin-top: -20px;
+}
+
+
+/* In website links */
+.links {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+
+li>a {
+    color:black;
+    padding: 15px;
+    float:left;
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+li:hover hr {
+    border-color:black;
+    background-color: black;
+}
+
+hr {
+    width:5vw;
+    background-color: grey;
+    border:1px solid grey;
+}
+
+/* Social media links  */
+.social-media {
+    display: flex;
+    flex-direction: row;
+    width: 40vw;
+    margin-left: 30vw;
+    justify-content: space-around;
+}
+
+span{
+    font-size: 28px;
+    padding-left:2vw;
+}
+
+i{
+    color: black;
+}
+
+/* About section */
+.second-container {
+    display:flex;
+}
+
+.about-heading {
+    text-align: center;
+    bottom: 20vh;
+}
+
+.about {
+    height:90vh;
+    width:50vw;
+}
+
+.about>h1 {
+    text-align: center;
+    font-weight: 400;
+}
+
+.about>p{
+    line-height: 150%;
+    font-weight: 200;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.basic-details>h1{
+    font-weight: 200;
+    margin-left: 10vw;
+}
+
+.basic-details>p{
+    margin-left: 7vw;
+}
+
+table {
+    margin-left: 10vw;
+}
+
+.value {
+    font-weight: bold;
+}

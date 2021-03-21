@@ -1,0 +1,61 @@
+body {
+    background-image: linear-gradient(#f0dfc2, #ebe6df);
+    margin: 0;
+    font-family: "IBM Plex Sans", sans-serif;
+    padding-bottom: 20px;
+    overflow-x: hidden;
+}
+
+.home {
+    padding-left: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    /* text-align: center; */
+    font-size: 30px;
+    margin-top: 10vh;
+}
+
+.short-headline {
+    font-size: 17px;
+}
+
+.data-headings {
+    font-size: 14px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.name-fields {
+    display: flex;
+    flex-direction: row;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+input[type="text"] {
+    height: 4vh;
+    width: 15vw;
+}
+
+input:focus {
+    outline: none !important;
+    border: 2px solid blue;
+}
+
+.gender {
+    margin-left: 20vw;
+}
+
+select {
+    width: 10vw;
+    height: 4vh;
+}

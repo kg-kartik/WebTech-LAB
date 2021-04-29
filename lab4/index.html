@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <title>
+        Calculator
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./index.js"></script>
+
+<body>
+    <center>
+        <h1 style="margin:5vh 0;">Calculator</h1>
+            <div class="display">
+                <p id="output">0</p>
+                <p id="main-output"></p>
+        </div>
+
+        <div>
+            <button onclick="clearAll()" style="width: 138px;">C</button>
+            <button id="input">%</button>
+            <button id="input">/</button>
+        </div>
+
+        <div>
+            <button onclick="clearPrevious()">Del</button>
+            <button id="input">^</button>
+            <button id="input">sin</button>
+            <button id="input">cos</button>
+        </div>
+
+        <div>
+            <button id="input">7</button>
+            <button id="input">8</button>
+            <button id="input">9</button>
+            <button id="input">*</button>
+        </div>
+
+        <div class="third-row">
+            <button id="input">4</button>
+            <button id="input">5</button>
+            <button id="input">6</button>
+            <button id="input">-</button>
+        </div>
+
+        <div class="fourth-row">
+            <button id="input">1</button>
+            <button id="input">2</button>
+            <button id="input">3</button>
+            <button id="input">+</button>
+        </div>
+
+        <div class="fifth-row">
+            <button id="input" style="width: 138px;">0</button>
+            <button id="input">.</button>
+            <button onclick="calculate()">=</button>
+        </div>
+    </center>
+    
+</body>
+</head>
+
+</html>

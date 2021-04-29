@@ -7,7 +7,9 @@ body {
 }
 
 .home {
-    padding-left: 20px;
+    margin: 4vh 20vw;
+    border: 1px solid black;
+    padding: 5vh 2vw;
 }
 
 .form {
@@ -17,7 +19,7 @@ body {
 .title {
     /* text-align: center; */
     font-size: 30px;
-    margin-top: 10vh;
+    margin-top: 4vh;
 }
 
 .short-headline {
@@ -52,10 +54,36 @@ input:focus {
 }
 
 .gender {
-    margin-left: 20vw;
+    margin-left: 5vw;
 }
 
 select {
     width: 10vw;
     height: 4vh;
+}
+
+.error {
+    border: 2px solid red;
+}
+
+#error-messages {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: red;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+#submit {
+    margin-top: 5vw;
+    color: white;
+    font-size: bold;
+    padding: 2vh 2vw;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+}
+
+#submit:hover {
+    cursor: pointer;
 }
